@@ -29,3 +29,12 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[处理和映射](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E5%A4%84%E7%90%86%E5%92%8C%E6%98%A0%E5%B0%84.md)
 
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
+
+
+##[第三章：识别一个可并行的问题](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E8%AF%86%E5%88%AB%E4%B8%80%E4%B8%AA%E5%8F%AF%E5%B9%B6%E8%A1%8C%E7%9A%84%E9%97%AE%E9%A2%98.md)
+
+* ####[从多个输入中得到斐波那契最大的值](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E4%BB%8E%E5%A4%9A%E4%B8%AA%E8%BE%93%E5%85%A5%E4%B8%AD%E5%BE%97%E5%88%B0%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9C%80%E5%A4%A7%E7%9A%84%E5%80%BC.md)
+
+* ####[爬取网页](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%88%AC%E5%8F%96%E7%BD%91%E9%A1%B5.md)
+
+* ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
