@@ -16,3 +16,12 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[小心Python GIL](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%B0%8F%E5%BF%83Python%20GIL.md)
 
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
+
+
+##[第二章：设计并行算法](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E8%AE%BE%E8%AE%A1%E5%B9%B6%E8%A1%8C%E7%AE%97%E6%B3%95.md)
+
+* ####[分治技术](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E5%88%86%E6%B2%BB%E6%8A%80%E6%9C%AF.md)
+* ####[使用数据分解](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E4%BD%BF%E7%94%A8%E6%95%B0%E6%8D%AE%E5%88%86%E8%A7%A3.md) 
+* ####[用管道分解任务](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E7%94%A8%E7%AE%A1%E9%81%93%E5%88%86%E8%A7%A3%E4%BB%BB%E5%8A%A1.md)
+* ####[处理和映射](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E5%A4%84%E7%90%86%E5%92%8C%E6%98%A0%E5%B0%84.md)
+* ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
