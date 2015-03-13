@@ -38,3 +38,15 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[爬取网页](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E7%88%AC%E5%8F%96%E7%BD%91%E9%A1%B5.md)
 
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
+
+
+##[第四章：使用threading和concurrent.futures模块](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/ReadMe.md)
+
+* ####[定义threading模块](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/%E5%AE%9A%E4%B9%89threading%E6%A8%A1%E5%9D%97.md)
+
+* ####[使用多线程解决斐波那契序列多输入问题](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/%E4%BD%BF%E7%94%A8threading%E6%A8%A1%E5%9D%97%E8%A7%A3%E5%86%B3%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%BA%8F%E5%88%97%E5%A4%9A%E8%BE%93%E5%85%A5%E9%97%AE%E9%A2%98.md)
+
+* ####[使用网络爬虫实现python并发模块](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/%E4%BD%BF%E7%94%A8%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E5%AE%9E%E7%8E%B0python%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9D%97.md)
+
+* [总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
+
