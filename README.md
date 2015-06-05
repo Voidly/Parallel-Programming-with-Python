@@ -64,3 +64,15 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
+##[利用并行Python](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/ReadMe.md)
+
+* ####[理解进程间通信](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E7%90%86%E8%A7%A3%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1.md)
+
+
+* ####[发现pp模块](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E5%8F%91%E7%8E%B0pp%E6%A8%A1%E5%9D%97.md)
+
+* ####[在SMP架构上使用pp模块计算斐波那契序列](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E5%9C%A8SMP%E6%9E%B6%E6%9E%84%E4%B8%8A%E4%BD%BF%E7%94%A8pp%E6%A8%A1%E5%9D%97%E8%AE%A1%E7%AE%97%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%BA%8F%E5%88%97.md)
+
+* ####[使用pp模块创建分布式网络爬虫](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E4%BD%BF%E7%94%A8pp%E6%A8%A1%E5%9D%97%E5%88%9B%E5%BB%BA%E5%88%86%E5%B8%83%E5%BC%8F%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB.md)
+
+* ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
