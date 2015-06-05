@@ -78,7 +78,7 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
-##[第七章：用Celery分发任务](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/ReadMe.md)
+##[第七章：用Celery分发任务](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%94%A8Celery%E6%9D%A5%E5%88%86%E5%8F%91%E4%BB%BB%E5%8A%A1.md)
 
 * ####[理解Celery](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%90%86%E8%A7%A3Celery.md)
 
