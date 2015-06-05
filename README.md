@@ -50,3 +50,17 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
+
+##[第五章：使用多进程和进程池](https://github.com/Voidly/Parallel-Programming-with-Python/tree/master/%E7%AC%AC%E4%BA%94%E7%AB%A0)
+
+* ####[理解进程的定义](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E7%90%86%E8%A7%A3%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%AE%9A%E4%B9%89.md)
+
+* ####[实现多进程间通信](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E5%AE%9E%E7%8E%B0%E5%A4%9A%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1.md)
+
+* ####[使用多进程解决斐波那契序列多输入问题](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E4%BD%BF%E7%94%A8%E5%A4%9A%E8%BF%9B%E7%A8%8B%E8%A7%A3%E5%86%B3%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E5%BA%8F%E5%88%97%E5%A4%9A%E8%BE%93%E5%85%A5%E9%97%AE%E9%A2%98.md)
+
+* ####[使用进程池实现网络爬虫](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E4%BD%BF%E7%94%A8%E8%BF%9B%E7%A8%8B%E6%B1%A0%E5%AE%9E%E7%8E%B0%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB.md)
+
+* ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
+
+
