@@ -76,3 +76,25 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[使用pp模块创建分布式网络爬虫](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E4%BD%BF%E7%94%A8pp%E6%A8%A1%E5%9D%97%E5%88%9B%E5%BB%BA%E5%88%86%E5%B8%83%E5%BC%8F%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB.md)
 
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
+
+
+##[第七章：用Celery分发任务](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/ReadMe.md)
+
+* ####[理解Celery](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%90%86%E8%A7%A3Celery.md)
+
+* ####[理解Celery架构](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%90%86%E8%A7%A3Celery%E6%9E%B6%E6%9E%84.md)
+
+* ####[建立环境](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E5%BB%BA%E7%AB%8B%E7%8E%AF%E5%A2%83.md)
+
+* ####[分发简单任务](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E5%88%86%E5%8F%91%E7%AE%80%E5%8D%95%E4%BB%BB%E5%8A%A1.md)
+
+* ####[用Celery来获得斐波那契数列的项](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%94%A8Celery%E6%9D%A5%E8%8E%B7%E5%BE%97%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%E7%9A%84%E9%A1%B9.md)
+
+* ####[根据任务类型定义队列](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E6%A0%B9%E6%8D%AE%E4%BB%BB%E5%8A%A1%E7%B1%BB%E5%9E%8B%E5%AE%9A%E4%B9%89%E9%98%9F%E5%88%97.md)
+
+* ####[用Celery来构建一个分布式网络爬虫系统](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%94%A8Celery%E6%9D%A5%E6%9E%84%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%88%86%E5%B8%83%E5%BC%8F%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E7%B3%BB%E7%BB%9F.md)
+
+* ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
+
+
+
