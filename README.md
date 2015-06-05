@@ -64,7 +64,7 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
-##[利用并行Python](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/ReadMe.md)
+##[第六章：利用并行Python](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/ReadMe.md)
 
 * ####[理解进程间通信](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E7%90%86%E8%A7%A3%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1.md)
 
