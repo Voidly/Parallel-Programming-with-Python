@@ -96,5 +96,13 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
+##[第八章：异步做的事](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AB%E7%AB%A0/%E5%BC%82%E6%AD%A5%E7%9A%84%E5%81%9A%E4%BA%8B.md)
 
+* ####[理解阻塞非阻塞和异步操作](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AB%E7%AB%A0/%E7%90%86%E8%A7%A3%E9%98%BB%E5%A1%9E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%92%8C%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C.md)
+
+* ####[理解事件循环](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AB%E7%AB%A0/%E7%90%86%E8%A7%A3%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF.md)
+
+* ####[使用asyncio](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AB%E7%AB%A0/%E4%BD%BF%E7%94%A8asyncio.md)
+
+* ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AB%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
