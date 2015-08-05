@@ -1,5 +1,9 @@
 # Parallel-Programming-with-Python
-Parallel Programming with Python,a book about parallel in python,We will translate it  into Chinese
+Parallel Programming with Python,a book about parallel in python,We will translate it  into Chinese.
+
+话说在ICT实习的时期，因感兴趣于Python，于是和两位朋友@tanghaodong25以及@gorlf商量翻译一本Python相关的书籍，挑来选去感觉Parallel Programming with Python比较赞，于是拍板翻译之，由于平时开发比较忙加上比较懒，耗时几个月才完成~
+
+另外因水平有限，翻译中难免有所疏漏与瑕疵，欢迎指出，欢迎吐槽~若要进行转载请注明作者，毕竟翻译也是很花费时间与精力的不是，所以请尊重我们的劳动成果~
 
 ##[第一章：并行、并发分布式编程对比分析](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%B9%B6%E8%A1%8C%E3%80%81%E5%B9%B6%E5%8F%91%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F%E7%BC%96%E7%A8%8B%E7%9A%84%E5%AF%B9%E6%AF%94%E5%88%86%E6%9E%90.md)
 
