@@ -26,7 +26,7 @@
     input_list = [3, 10, 5, 7]
 ```
 
-接下来的一行代码，我们从threading模块中定义了一个Condition对象，该对象根据一定的条件同步线程资源。
+接下来的一行代码，我们从threading模块中定义了一个Condition对象，该对象根据一定的条件同步各线程存取资源的操作。
 
 ```python
 
@@ -35,41 +35,41 @@
 
 使用Condition对象用于控制线程的创建队列。
 
-下一块代码定义了一个很多线程都需要调用的方法，我们把它命名为fibonacci\_task。fibonacci\_task方法接收condition对象作为线程获取shared\_queue中值的协议。方法中，我们只用了with语句（关于更多with语句的用法，请参考[http://docs.python.org/3/reference/compound_stmts.html#with](http://docs.python.org/3/reference/compound_stmts.html#with)）简化控制内容。如果没有with语句，我们则需要显式的使用锁，并且最后释放锁。有了with操作，代码隐式的在代码最开始获得锁，并在代码最后释放锁。fibonacci方法中接下来是逻辑处理相关代码，告诉当前线程，当shared\_queue为空时，等待。wait()方法是condition中的主要方法之一。线程将一直等待，直到被通知shared\_queue可以被使用。一旦满足shared\_queue可以被使用的条件，当前线程将接收shared\_queue中的值作为输入计算斐波那契序列的值，最后把输入和输出作为key和value存入fibo\_dict字典。最后，我们调用task_done()方法，通知某一个任务已经被分离并执行。代码如下：
+下一块代码定义了一个很多线程都需要调用的方法，我们把它命名为fibonacci\_task。fibonacci\_task方法接收condition对象作为线程获取shared\_queue中值的协议。方法中，我们使用了with语句（关于更多with语句的用法，请参考[http://docs.python.org/3/reference/compound_stmts.html#with](http://docs.python.org/3/reference/compound_stmts.html#with)）简化控制内容。如果没有with语句，我们则需要显式的使用锁，并且最后释放锁。有了with操作，代码隐式的在代码最开始获得锁，并在代码最后释放锁。fibonacci方法中接下来的是逻辑处理相关代码，告诉当前线程，当shared\_queue为空时，等待。wait()方法是condition中的主要方法之一。线程将一直等待，直到被通知shared\_queue可以被使用。一旦满足shared\_queue可以被使用的条件，当前线程将接收shared\_queue中的值作为输入计算斐波那契序列的值，最后把输入和输出作为key和value存入fibo\_dict字典。最后，我们调用task_done()方法，通知某一个任务已经被分离并执行。代码如下：
 
 ```python
 
     def fibonacci_task(condition):
      with condition:
-     while shared_queue.empty():
-     logger.info("[%s] - waiting for elements in queue.."
-     % threading.current_thread().name)
-     condition.wait()
+       while shared_queue.empty():
+         logger.info("[%s] - waiting for elements in queue.."
+           % threading.current_thread().name)
+         condition.wait()
      else:
-     value = shared_queue.get()
-     a, b = 0, 1
-     for item in range(value):
-     a, b = b, a + b
-     fibo_dict[value] = a
+       value = shared_queue.get()
+       a, b = 0, 1
+       for item in range(value):
+         a, b = b, a + b
+         fibo_dict[item] = a    # 这里书中是fibo_dict[value] = a,但是觉得重复赋值没有意义
      shared_queue.task_done()
      logger.debug("[%s] fibonacci of key [%d] with
-     result [%d]" %
-     (threading.current_thread().name, value,
-     fibo_dict[value]))
+       result [%d]" %
+       (threading.current_thread().name, value,
+         fibo_dict[value]))
 ```
 
-我们定义的第二个函数是queue_task，该函数被负责计算shared\_queue的值的线程所调用。我们看到condition对象作为获得shared\_queue的协议。input_list中的每一个值都将被插入到shared_queue中去。当所有的值都被插入到shared\_queue中后，告知负责计算斐波那契序列的方法shared\_queue已经可以使用。
+我们定义的第二个函数是queue\_task，该函数被负责计算shared\_queue的值的线程所调用。我们看到condition对象作为获得shared\_queue的协议。input\_list中的每一个值都将被插入到shared\_queue中去。当所有的值都被插入到shared\_queue中后，告知负责计算斐波那契序列的方法shared\_queue已经可以使用。
 
 ```python
 
     def queue_task(condition):
      logging.debug('Starting queue_task...')
      with condition:
-     for item in input_list:
-     shared_queue.put(item)
-     logging.debug("Notifying fibonacci_task threads
-     that the queue is ready to consume..")
-     condition.notifyAll()
+       for item in input_list:
+         shared_queue.put(item)
+         logging.debug("Notifying fibonacci_task threads
+           that the queue is ready to consume..")
+         condition.notifyAll()
 ```
 
 接下来我们将创建四个线程等待shared\_queue可以被使用条件。线程将执行target参数作为回调函数，代码如下：
@@ -77,7 +77,7 @@
 ```python
 
     threads = [threading.Thread(
-     daemon=True, target=fibonacci_task,
+      daemon=True, target=fibonacci_task,
     args=(queue_condition,)) for i in range(4)]
 ```
 
@@ -97,7 +97,7 @@
     prod.start()
 ```
 
-最后，我们调用join()方法，调用计算斐波那契序列的所有线程，使用join()方法的目的是，让主线程等待子线程的调用，直到所有子线程执行完毕之后才结束子线程。
+最后，我们多计算斐波那契序列的所有线程都调用join()方法，使用join()方法的目的是，让主线程等待子线程的调用，直到所有子线程执行完毕之后才结束子线程。
 
 ```python
 
@@ -106,6 +106,6 @@
 
 程序的执行结果如下：
 
-注意到，第一个fibonacci_task线程被创建和初始化后，它们进入等待状态。同时，queue_task线程被创建并且生成shared\_queue队列。最后，queue\_task方法告知fibonacci_task线程可以执行它们的任务。
+注意到，第一个fibonacci\_task线程被创建和初始化后，它们进入等待状态。同时，queue\_task线程被创建并且生成shared\_queue队列。最后，queue\_task方法告知fibonacci_task线程可以执行它们的任务。
 
 注意到，程序每次执行的过程都不一样，这也是多线程的特性之一。
