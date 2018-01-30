@@ -12,24 +12,24 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 
 另外因水平有限，翻译中难免有所疏漏与瑕疵，欢迎指出，欢迎吐槽~若要进行转载请注明作者，毕竟翻译也是很花费时间与精力的不是，所以请尊重我们的劳动成果~
 
-##[第一章：并行、并发分布式编程对比分析](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%B9%B6%E8%A1%8C%E3%80%81%E5%B9%B6%E5%8F%91%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F%E7%BC%96%E7%A8%8B%E7%9A%84%E5%AF%B9%E6%AF%94%E5%88%86%E6%9E%90.md)
+## [第一章：并行、并发分布式编程对比分析](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%B9%B6%E8%A1%8C%E3%80%81%E5%B9%B6%E5%8F%91%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F%E7%BC%96%E7%A8%8B%E7%9A%84%E5%AF%B9%E6%AF%94%E5%88%86%E6%9E%90.md)
 
-* ####[为什么使用并行编程](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B.md)
+* #### [为什么使用并行编程](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A8%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B.md)
 
-* ####[探索并行化的几种模式](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E6%8E%A2%E7%B4%A2%E5%B9%B6%E8%A1%8C%E5%8C%96%E7%9A%84%E5%87%A0%E7%A7%8D%E6%A8%A1%E5%BC%8F.md)
+* #### [探索并行化的几种模式](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E6%8E%A2%E7%B4%A2%E5%B9%B6%E8%A1%8C%E5%8C%96%E7%9A%84%E5%87%A0%E7%A7%8D%E6%A8%A1%E5%BC%8F.md)
 
-* ####[并行编程间的通信](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%9C%A8%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B%E9%80%9A%E4%BF%A1.md)
+* #### [并行编程间的通信](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%9C%A8%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B%E9%80%9A%E4%BF%A1.md)
 
-* ####[识别并行编程的问题](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E8%AF%86%E5%88%AB%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B%E7%9A%84%E9%97%AE%E9%A2%98.md)
+* #### [识别并行编程的问题](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E8%AF%86%E5%88%AB%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B%E7%9A%84%E9%97%AE%E9%A2%98.md)
 
-* ####[发现Python并行编程的工具](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%8F%91%E7%8E%B0Python%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B%E7%9A%84%E5%B7%A5%E5%85%B7.md)
+* #### [发现Python并行编程的工具](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%8F%91%E7%8E%B0Python%E5%B9%B6%E8%A1%8C%E7%BC%96%E7%A8%8B%E7%9A%84%E5%B7%A5%E5%85%B7.md)
 
 * ####[小心Python GIL](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%B0%8F%E5%BF%83Python%20GIL.md)
 
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
-##[第二章：设计并行算法](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E8%AE%BE%E8%AE%A1%E5%B9%B6%E8%A1%8C%E7%AE%97%E6%B3%95.md)
+## [第二章：设计并行算法](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E8%AE%BE%E8%AE%A1%E5%B9%B6%E8%A1%8C%E7%AE%97%E6%B3%95.md)
 
 * ####[分治技术](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E5%88%86%E6%B2%BB%E6%8A%80%E6%9C%AF.md)
 
@@ -42,7 +42,7 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%8C%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
-##[第三章：识别一个可并行的问题](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E8%AF%86%E5%88%AB%E4%B8%80%E4%B8%AA%E5%8F%AF%E5%B9%B6%E8%A1%8C%E7%9A%84%E9%97%AE%E9%A2%98.md)
+## [第三章：识别一个可并行的问题](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E8%AF%86%E5%88%AB%E4%B8%80%E4%B8%AA%E5%8F%AF%E5%B9%B6%E8%A1%8C%E7%9A%84%E9%97%AE%E9%A2%98.md)
 
 * ####[从多个输入中得到斐波那契最大的值](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E4%BB%8E%E5%A4%9A%E4%B8%AA%E8%BE%93%E5%85%A5%E4%B8%AD%E5%BE%97%E5%88%B0%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%9C%80%E5%A4%A7%E7%9A%84%E5%80%BC.md)
 
@@ -51,7 +51,7 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%89%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
-##[第四章：使用threading和concurrent.futures模块](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/ReadMe.md)
+## [第四章：使用threading和concurrent.futures模块](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/ReadMe.md)
 
 * ####[定义threading模块](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/%E5%AE%9A%E4%B9%89threading%E6%A8%A1%E5%9D%97.md)
 
@@ -62,7 +62,7 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%9B%9B%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
-##[第五章：使用多进程和进程池](https://github.com/Voidly/Parallel-Programming-with-Python/tree/master/%E7%AC%AC%E4%BA%94%E7%AB%A0)
+## [第五章：使用多进程和进程池](https://github.com/Voidly/Parallel-Programming-with-Python/tree/master/%E7%AC%AC%E4%BA%94%E7%AB%A0)
 
 * ####[理解进程的定义](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E7%90%86%E8%A7%A3%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%AE%9A%E4%B9%89.md)
 
@@ -75,7 +75,7 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%BA%94%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
-##[第六章：利用并行Python](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/ReadMe.md)
+## [第六章：利用并行Python](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/ReadMe.md)
 
 * ####[理解进程间通信](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E7%90%86%E8%A7%A3%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1.md)
 
@@ -89,7 +89,7 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AD%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
 
-##[第七章：用Celery分发任务](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%94%A8Celery%E6%9D%A5%E5%88%86%E5%8F%91%E4%BB%BB%E5%8A%A1.md)
+## [第七章：用Celery分发任务](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%94%A8Celery%E6%9D%A5%E5%88%86%E5%8F%91%E4%BB%BB%E5%8A%A1.md)
 
 * ####[理解Celery](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E7%90%86%E8%A7%A3Celery.md)
 
@@ -107,7 +107,7 @@ Parallel Programming with Python,a book about parallel in python,We will transla
 
 * ####[总结](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E4%B8%83%E7%AB%A0/%E6%80%BB%E7%BB%93.md)
 
-##[第八章：异步做的事](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AB%E7%AB%A0/%E5%BC%82%E6%AD%A5%E7%9A%84%E5%81%9A%E4%BA%8B.md)
+## [第八章：异步做的事](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AB%E7%AB%A0/%E5%BC%82%E6%AD%A5%E7%9A%84%E5%81%9A%E4%BA%8B.md)
 
 * ####[理解阻塞非阻塞和异步操作](https://github.com/Voidly/Parallel-Programming-with-Python/blob/master/%E7%AC%AC%E5%85%AB%E7%AB%A0/%E7%90%86%E8%A7%A3%E9%98%BB%E5%A1%9E%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%92%8C%E5%BC%82%E6%AD%A5%E6%93%8D%E4%BD%9C.md)
 
